@@ -1,0 +1,111 @@
+html, body {
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFF5E4;
+}
+
+div{
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+
+input{
+    margin-left: 5px;
+}
+
+.p-center{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: "Cormorant";
+    font-size: 38pt;
+    font-weight: 350;
+    color: #C39F6C;
+    padding: 0;
+}
+
+h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 32pt;
+    font-weight: 200;
+    color: #4B281D;
+    text-align: center;
+}
+
+label, p{
+    font-family: "Alegreya", serif;
+    color: #4B281D;
+    font-size: 14pt;
+}
+
+.btn{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #A20000;
+    color:#FFF5E4;
+    font-size: 12pt;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer; /* Курсор в виде пальца */
+    text-decoration: none;
+}
+
+#guestForm > p{
+    font-size: 13pt;
+    margin: 0px;
+}
+
+#guestForm > input{
+    margin: 0px;
+    margin-bottom: 30px;
+    background-color: #fff2dc;
+    border: 2px solid rgb(238, 217, 187);
+    height: 30px;
+    width: 300px;
+    outline: none;
+    box-shadow: none;
+}
+
+#guestForm > select{
+    margin: 0px;
+    margin-bottom: 30px;
+    background-color: #fff2dc;
+    border: 2px solid rgb(238, 217, 187);
+    height: 30px;
+    width: 150px;
+    color: #754030;
+}
+
+#guestForm > textarea{
+    margin: 0px;
+    margin-bottom: 30px;
+    background-color: #fff2dc;
+    border: 2px solid rgb(238, 217, 187);
+    color: #754030;
+}
+
+#guestForm > input[type="submit"]{
+    margin: 20px;
+    background-color: #A20000;
+    color: #fff2dc;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    align-items: center;
+}
